@@ -1,0 +1,54 @@
+body {
+    background-color: #FE0472;
+}
+
+.titulo {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    text-align: center;
+    background-color: #42124C;
+    color: #8AFF00;
+}
+
+#tabuleiro {
+    background-color: #42124C;
+    margin: auto;
+}
+
+.row-tab {
+    text-align: center;
+    text-decoration: none;
+}
+
+.btnJogo {
+    height: 230px;
+    width: 230px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+}
+
+.btnJogo:hover {
+    background-color: #8AFF00;
+    border-radius: 10px;
+}
+
+#screen {
+    text-align: center;
+    display: flex;
+
+}
+
+.btnConfig {
+    height: 100px;
+    width:  auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    text-align: center;
+    background-color: #42124C;
+    color: #8AFF00;
+}
+
+.btnConfig:hover {
+    background-color: #8AFF00;
+    color: #42124C;
+}

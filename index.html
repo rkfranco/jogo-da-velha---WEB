@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="titulo">Jogo Da Velha</h1>
+    </header>
+    <main>
+        <div id="screen">
+            <table id="tabuleiro">
+                <tr class="row-tab">
+                    <td><button class="btnJogo" id="1" onclick="onBtnJogo(1, this)"></button></td>
+                    <td><button class="btnJogo" id="2" onclick="onBtnJogo(2, this)"></button></td>
+                    <td><button class="btnJogo" id="3" onclick="onBtnJogo(3, this)"></button></td>
+                </tr>
+                <tr class="row-tab">
+                    <td><button class="btnJogo" id="4" onclick="onBtnJogo(4, this)"></button></td>
+                    <td><button class="btnJogo" id="5" onclick="onBtnJogo(5, this)"></button></td>
+                    <td><button class="btnJogo" id="6" onclick="onBtnJogo(6, this)"></button></td>
+                </tr>
+                <tr class="row-tab">
+                    <td><button class="btnJogo" id="7" onclick="onBtnJogo(7, this)"></button></td>
+                    <td><button class="btnJogo" id="8" onclick="onBtnJogo(8, this)"></button></td>
+                    <td><button class="btnJogo" id="9" onclick="onBtnJogo(9, this)"></button></td>
+                </tr>
+            </table>
+            <button class="btnConfig" onclick="gameReset()">Recomeçar</button>
+        </div>
+    </main>
+    <footer></footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
